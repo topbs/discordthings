@@ -11,11 +11,11 @@
 }
 
 /*.topb.*/
-.contents-2mQqc9>img[user_by_bdfdb="249471278778417152"]~.header-23xsNx>.headerText-3Uvj1Y>.username-1A8OIy::after {      
+.contents-2mQqc9>img[src*="249471278778417152"]~.header-23xsNx>.headerText-3Uvj1Y>.username-1A8OIy::after {      
 	content: ".dot.squad.";
 	color: #fff;
 } 
-.contents-2mQqc9>img[user_by_bdfdb="249471278778417152"]~.header-23xsNx>.headerText-3Uvj1Y>.username-1A8OIy.clickable-1bVtEA {      
+.contents-2mQqc9>img[src*="249471278778417152"]~.header-23xsNx>.headerText-3Uvj1Y>.username-1A8OIy.clickable-1bVtEA {      
 	background: linear-gradient(to right, #000000 0%, #FFFFFF 40%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
