@@ -1,3 +1,10 @@
+/* animation */
+@keyframes animation {
+	from {background: #fff; -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+	to {background: #000; -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+}
+
+/* tag base */
 .contents-2mQqc9>img~.header-23xsNx>.headerText-3Uvj1Y>.username-1A8OIy::after {
 	content: none;
 	color: currentcolor;
@@ -10,26 +17,34 @@
 	padding: 0 5px
 }
 
+
 /*.topb.*/
-.contents-2mQqc9>img[src*="249471278778417152"]~.header-23xsNx>.headerText-3Uvj1Y>.username-1A8OIy::after {      
+.contents-2mQqc9>img[user_by_bdfdb="249471278778417152"]~.header-23xsNx>.headerText-3Uvj1Y>.username-1A8OIy::after {      
 	content: ".dot.squad.";
 	color: #fff;
 } 
-.contents-2mQqc9>img[src*="249471278778417152"]~.header-23xsNx>.headerText-3Uvj1Y>.username-1A8OIy.clickable-1bVtEA {      
-	background: linear-gradient(to right, #000000 0%, #FFFFFF 40%);
+.contents-2mQqc9>img[user_by_bdfdb="249471278778417152"]~.header-23xsNx>.headerText-3Uvj1Y>.username-1A8OIy.clickable-1bVtEA{      
+	background: #000;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+	animation-name: animation;
+    animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
 }
+
 /*.b.g.w.d.*/
 .contents-2mQqc9>img[src*="373888981282062338"]~.header-23xsNx>.headerText-3Uvj1Y>.username-1A8OIy::after {
 	content: ".dot.squad.";
 	color: #fff;
-}   
+}
+
 /*.sweetkarmell.*/
 .contents-2mQqc9>img[src*="535460977777311765"]~.header-23xsNx>.headerText-3Uvj1Y>.username-1A8OIy::after {
 	content: ".dot.squad.";
 	color: #fff;
 }
+
 /*krukrai*/
 .contents-2mQqc9>img[src*="595636098840133659"]~.header-23xsNx>.headerText-3Uvj1Y>.username-1A8OIy::after {
 	content: "Ебалай";
