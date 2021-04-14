@@ -11,7 +11,7 @@
 }
 
 /*.topb.*/
-.contents-2mQqc9>img[user_by_bdfdb="249471278778417152"]~.header-23xsNx.username-1A8OIy::after {      
+.contents-2mQqc9>img[user_by_bdfdb="249471278778417152"]~.header-23xsNx>.headerText-3Uvj1Y>.username-1A8OIy::after {      
 	content: ".dot.squad.";
 	color: #fff;
 } 
