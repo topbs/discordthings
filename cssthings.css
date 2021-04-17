@@ -1,16 +1,36 @@
 /**
  * @name nicknames and more but fully local
  * @author topb#4024
- * @version 0.2
+ * @version 0.3.1
  * @description ну... вот.
  */
 
 /* animation */
 @keyframes animation {
-	from {background: #fff; -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
-	to {background: #000; -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+	from {
+		background: #fff; 
+		-webkit-background-clip: text; 
+		-webkit-text-fill-color: transparent;}
+	to {
+		background: #000; 
+		-webkit-background-clip: text; 
+		-webkit-text-fill-color: transparent;}
 }
 
+@keyframes glow {
+  0%{
+    text-shadow: 0 0 3px #fff, 0 0 4px #ff4da6, 0 0 5px #ff4da6, 0 0 6px #ff4da6, 0 0 7px #ff4da6, 0 0 8px #ff4da6;
+  }
+  33%{
+    text-shadow: 0 0 3px #fff, 0 0 4px #C724B1, 0 0 5px #C724B1, 0 0 6px #C724B1, 0 0 7px #C724B1, 0 0 8px #C724B1;
+  }
+  66%{
+    text-shadow: 0 0 3px #fff, 0 0 4px #1F51FF, 0 0 5px #1F51FF, 0 0 6px #1F51FF, 0 0 7px #1F51FF, 0 0 8px #1F51FF;
+  }
+  100%{
+    text-shadow: 0 0 3px #fff, 0 0 4px #ff4da6, 0 0 5px #ff4da6, 0 0 6px #ff4da6, 0 0 7px #ff4da6, 0 0 8px #ff4da6;
+  }
+}
 
 /* tag base */
 .contents-2mQqc9>img~.header-23xsNx>.headerText-3Uvj1Y>.username-1A8OIy::after {
@@ -58,6 +78,9 @@
 .contents-2mQqc9>img[src*="535460977777311765"]~.header-23xsNx>.headerText-3Uvj1Y>.username-1A8OIy::after {
 	content: ".dot.squad.";
 	color: #fff;
+}
+.contents-2mQqc9>img[src*="535460977777311765"]~.header-23xsNx>.headerText-3Uvj1Y>.username-1A8OIy.clickable-1bVtEA {
+	animation: glow 3s alternate infinite;
 }
 
 /*krukrai*/
