@@ -1,8 +1,16 @@
+/**
+ * @name nicknames and more but fully local
+ * @author topb#4024
+ * @version 0.2
+ * @description ну... вот.
+ */
+
 /* animation */
 @keyframes animation {
 	from {background: #fff; -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
 	to {background: #000; -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
 }
+
 
 /* tag base */
 .contents-2mQqc9>img~.header-23xsNx>.headerText-3Uvj1Y>.username-1A8OIy::after {
@@ -11,7 +19,7 @@
 	text-shadow: 0 0 2px currentcolor;
 	border: 1px solid;
 	border-radius: 6px;
-	margin-left: 8px;	
+	margin-left: 5px;	
 	background-color: rgba(255, 255, 255, 0.07);
 	font-size: 10px;
 	padding: 0 5px
@@ -34,10 +42,17 @@
 }
 
 /*.b.g.w.d.*/
-.contents-2mQqc9>img[src*="373888981282062338"]~.header-23xsNx>.headerText-3Uvj1Y>.username-1A8OIy::after {
+.contents-2mQqc9>img[src*="373888981282062338"]~.header-23xsNx>.headerText-3Uvj1Y>.username-1A8OIy::after {      
 	content: ".dot.squad.";
 	color: #fff;
+} 
+.contents-2mQqc9>img[src*="373888981282062338"]~.header-23xsNx>.headerText-3Uvj1Y>.username-1A8OIy.clickable-1bVtEA {
+	background: url(https://i.gifer.com/1JBz.gif);
+	background-position: bottom right;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
+
 
 /*.sweetkarmell.*/
 .contents-2mQqc9>img[src*="535460977777311765"]~.header-23xsNx>.headerText-3Uvj1Y>.username-1A8OIy::after {
@@ -50,3 +65,4 @@
 	content: "Ебалай";
 	color: #fff;
 }
+
