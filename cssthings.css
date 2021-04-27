@@ -1,8 +1,10 @@
 /**
- * @name nicknames and more but fully local
+ * @name nicknames and more
  * @author topb#4024
- * @version 0.3.2
+ * @version 0.4
  * @description ну... вот.
+ * @source https://github.com/topbs/discordthings
+ * @updateUrl https://gitcdn.link/repo/topbs/discordthings/main/cssthings.css);
  */
 
 /* animation */
@@ -32,6 +34,41 @@
   }
 }
 
+@keyframes gayrope {
+    0% {
+        background: purple; 
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent;}
+    14.2% {
+        background: red; 
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent;}
+    28.4% {
+        background: orangered; 
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent;}
+    42.6% {
+        background: yellow; 
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent;}
+    56.8% {
+        background: green; 
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent;}
+    71.0% {
+        background: #00ffff; 
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent;}
+    85.2% {
+        background: blue; 
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent;}
+    100% {
+        background: purple; 
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent;}
+}
+
 /* tag base */
 .contents-2mQqc9>img~.header-23xsNx>.headerText-3Uvj1Y>.username-1A8OIy::after {
 	content: none;
@@ -44,7 +81,6 @@
 	font-size: 10px;
 	padding: 0 5px
 }
-
 
 /*.topb.*/
 .contents-2mQqc9>img[src*="249471278778417152"]~.header-23xsNx>.headerText-3Uvj1Y>.username-1A8OIy::after {      
@@ -89,3 +125,12 @@
 	color: #fff;
 }
 
+/*niklasduo*/
+.contents-2mQqc9>img[src*="360699173378588674"]~.header-23xsNx>.headerText-3Uvj1Y>.username-1A8OIy.clickable-1bVtEA{
+    background: #000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation-name: gayrope;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+}
